@@ -72,6 +72,6 @@ def workout_type_counts(df):
     return workout_counts
 
 workout_counts = workout_type_counts(df)
-print("Total Members for Each Workout Type:\n")
+print("Total Members for Each Workout Type:")
 for workout_type, count in workout_counts.items():
     print(f"{workout_type}: {count} members")
